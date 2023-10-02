@@ -7,16 +7,22 @@ body{
     margin: 0px auto;
 }
 
-h1 {
-    background-color: black;
-    color: white;
+.inner{
+    margin: 0px auto;
+    width: 93%;
 }
 
-.odin {
-    background-color: gray;
-    color: yellow;
+.main{
+    background-color: antiquewhite;
+    min-height: 100vh;
 }
 
+h1{
+    margin-top: 0px;
+    padding-top: 0.67em;
+}
+
+h1,
 h2,
 h3 {
     color: cornflowerblue;
@@ -34,4 +40,12 @@ ul li {
 #different li {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 45%;
+    padding: 0% 2.5%;
+    text-align: center;
 }
